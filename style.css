@@ -1,2 +1,73 @@
-.attribution { font-size: 11px; text-align: center; }
-.attribution a { color: hsl(228, 45%, 44%); }
+/* Google Font */
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 400;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v4/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+}
+
+@font-face {
+    font-family: 'Outfit';
+    font-style: normal;
+    font-weight: 700;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/outfit/v4/QGYvz_MVcBeNP4NJtEtqUYLknw.woff2) format('woff2');
+    unicode-range: U+0000-00FF, U+0131, U+0152-0153, U+02BB-02BC, U+02C6, U+02DA, U+02DC, U+2000-206F, U+2074, U+20AC, U+2122, U+2191, U+2193, U+2212, U+2215, U+FEFF, U+FFFD;
+  }
+
+/* Body */
+
+body {
+    background-color:  hsl(220, 15%, 55%);
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-container {
+    background-color: hsl(0, 0%, 100%);
+    width: 320px;
+    height: 497px;
+    border-radius: 20px;
+    margin: auto;
+}
+
+.qr-code {
+    width: 100%;
+    border-radius: 20px;
+    padding: 16px 16px 0px 16px;
+}
+
+.container-text {
+    width: 288px;
+    height: 129px;
+    margin: auto;
+    text-align: center;
+    font-family: Outfit;
+    font-weight: 700;
+    font-size: 22px;
+    line-height: 27.2px;
+    color: hsl(218, 44%, 22%);
+    padding: 24px 16px 16px 16px;
+}
+
+.container-text p {
+    font-family: Outfit;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18.9px;
+    letter-spacing: 0.1875px;
+    color: hsla(219, 15%, 55%, 1);
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center;
+    padding: 10px;
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
