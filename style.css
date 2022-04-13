@@ -1,3 +1,19 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* Responsive Controls */
+.card-container {
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
 /* Google Font */
 @font-face {
     font-family: 'Outfit';
@@ -18,55 +34,50 @@
   }
 
 /* Body */
-
 body {
-    background-color:  hsl(220, 15%, 55%);
+    background-color: hsl(212, 45%, 89%);
     font-family: 'Outfit', sans-serif;
+    font-size: 15px;
+    text-align: center;
 }
-
-.qr-container {
+.card {
     background-color: hsl(0, 0%, 100%);
     width: 320px;
     height: 497px;
     border-radius: 20px;
-    margin: auto;
 }
 
 .qr-code {
     width: 100%;
-    border-radius: 20px;
-    padding: 16px 16px 0px 16px;
+    padding: 16px 16px 16px 16px;
+    border-radius: 8%;
 }
 
-.container-text {
+.card-text {
     width: 288px;
     height: 129px;
-    margin: auto;
-    text-align: center;
+    padding: 8px 16px 40px 16px;
+    margin: 0 auto;
+}
+.card-text h2 {
     font-family: Outfit;
     font-weight: 700;
     font-size: 22px;
     line-height: 27.2px;
     color: hsl(218, 44%, 22%);
-    padding: 24px 16px 16px 16px;
 }
-
-.container-text p {
-    font-family: Outfit;
+.card-text p {
     font-weight: 400;
-    font-size: 15px;
     line-height: 18.9px;
     letter-spacing: 0.1875px;
-    color: hsla(219, 15%, 55%, 1);
-    padding-left: 16px;
-    padding-right: 16px;
+    color: hsl(220, 15%, 55%);
+    padding-top: 16px;
 }
 
 /* Attribution */
 .attribution { 
     font-size: 11px; 
-    text-align: center;
-    padding: 10px;
+    padding-top: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
