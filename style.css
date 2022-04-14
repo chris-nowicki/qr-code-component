@@ -5,14 +5,7 @@
 }
 
 /* Responsive Controls */
-.card-container {
-    max-width: 1440px;
-    min-width: 375px;
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
+
 
 /* Google Font */
 @font-face {
@@ -39,6 +32,15 @@ body {
     font-family: 'Outfit', sans-serif;
     font-size: 15px;
     text-align: center;
+}
+.card-container {
+    max-width: 1440px;
+    min-width: 375px;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 .card {
     background-color: hsl(0, 0%, 100%);
