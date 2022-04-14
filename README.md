@@ -23,8 +23,8 @@ The challenge was to build out this QR code component and get it looking as clos
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-HkBukQSVc](https://www.frontendmentor.io/solutions/qr-code-component-HkBukQSVc)
+- Live Site URL: [https://chris-wix.github.io/qr-code-component/](https://chris-wix.github.io/qr-code-component/)
 
 ### Built with
 
