@@ -4,9 +4,6 @@
     box-sizing: border-box;
 }
 
-/* Responsive Controls */
-
-
 /* Google Font */
 @font-face {
     font-family: 'Outfit';
@@ -48,8 +45,8 @@ body {
     height: 497px;
     border-radius: 20px;
 
-    -webkit-box-shadow: 2px 5px 15px -6px rgba(0,0,0,0.2); 
-    box-shadow: 2px 5px 15px -6px rgba(0,0,0,0.2);
+    -webkit-box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
 }
 
 .qr-code {
@@ -78,11 +75,11 @@ body {
     padding-top: 16px;
 }
 
-/* Attribution */
+/* Attribution
 .attribution { 
     font-size: 11px; 
     padding-top: 10px;
 }
 .attribution a { 
     color: hsl(228, 45%, 44%); 
-}
+} */
