@@ -47,6 +47,9 @@ body {
     width: 320px;
     height: 497px;
     border-radius: 20px;
+
+    -webkit-box-shadow: 2px 5px 15px -6px rgba(0,0,0,0.2); 
+    box-shadow: 2px 5px 15px -6px rgba(0,0,0,0.2);
 }
 
 .qr-code {
