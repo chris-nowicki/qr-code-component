@@ -57,9 +57,9 @@ and the container setting for the QR Code:
     justify-content: center;
 }
 ```
-Honestly, I'm not sure if *max-width* or *min-width* were needed and learning about `height: 100vh;' and how that relates to 100% of the view port height.
+Honestly, I'm not sure if *max-width* or *min-width* were needed and learning about `height: 100vh;` and how that relates to 100% of the view port height.
 
-I also focused on importing the font into the *.css* file using the '@font-face' at rule.  Again, probably wasn't needed and could have added the font to the *style* section of *index.html*.
+I also focused on importing the font into the *.css* file using the `@font-face` at rule.  Again, probably wasn't needed and could have added the font to the *style* section of *index.html*.
 
 ...... and of course **GitHub**.  This was the first project where I focused on using the command line for *git* commands, creating branches, merging branches, and deleting local/remote branches.
 
