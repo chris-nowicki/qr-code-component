@@ -24,7 +24,7 @@ The challenge was to build out this QR code component and get it looking as clos
 ### Links
 
 - Solution URL: [https://www.frontendmentor.io/solutions/qr-code-component-HkBukQSVc](https://www.frontendmentor.io/solutions/qr-code-component-HkBukQSVc)
-- Live Site URL: [https://chris-wix.github.io/qr-code-component/](https://chris-wix.github.io/qr-code-component/)
+- Live Site URL: [https://chris-nowicki.github.io/qr-code-component/](https://chris-wix.github.io/qr-code-component/)
 
 ### Built with
 
